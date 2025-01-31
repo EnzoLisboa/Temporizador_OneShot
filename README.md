@@ -41,4 +41,4 @@ Este projeto demonstra como controlar três LEDs (verde, azul e vermelho) usando
 2. **Clone este repositório**:
    ```bash
    git clone https://github.com/EnzoLisboa/Temporizador_OneShot.git
-   cd seu-repositorio
+   cd Temporizador_OneShot
