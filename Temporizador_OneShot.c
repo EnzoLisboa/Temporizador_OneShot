@@ -109,7 +109,7 @@ int main() {
     gpio_pull_up(BUTTON_PIN);
 
     // Habilita a interrupção no pino do botão para detectar borda de subida (botão pressionado)
-    gpio_set_irq_enabled_with_callback(BUTTON_PIN, GPIO_IRQ_EDGE_FALL, true, &button_callback);
+    gpio_set_irq_enabled_with_callback(BUTTON_PIN, GPIO_IRQ_EDGE_RISE, true, &button_callback);
 
     while (true) {
         // Verifica se o botão foi pressionado e se o temporizador não está em execução
