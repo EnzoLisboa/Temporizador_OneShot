@@ -10,7 +10,9 @@ Este projeto demonstra como controlar três LEDs (verde, azul e vermelho) usando
   - **Dois ligados**: Após 3 segundos, o LED vermelho é desligado, deixando apenas o verde e o azul ligados.
   - **Um ligado**: Após mais 3 segundos, o LED azul é desligado, deixando apenas o verde ligado.
   - **Todos desligados**: Após mais 3 segundos, todos os LEDs são desligados.
+- **Rotina Não Interrompível**: A rotina de acionar os LEDs não pode ser interrompida uma vez iniciada, garantindo que a sequência de estados dos LEDs seja executada completamente.
 - **Debounce**: O código inclui uma lógica de debounce para evitar leituras falsas do botão.
+
 
 ## Componentes Necessários
 
